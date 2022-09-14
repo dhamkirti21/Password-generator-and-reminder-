@@ -67,13 +67,13 @@ def add_user(name, email, duration):
 
 
 def send_password(email, password):
-    from_ = 'sisodiabittu9@gmail.com'
+    from_ = '[Email]'
     to = email
     msg = MIMEMultipart()
     msg['From'] = from_
     msg['To'] = to
     msg['Subject'] = 'Reminder!!! To Change Password'
-    pwd = 'nlumcyrsnwzmjuss'
+    pwd = '[app generated password]'
     text = f"""
             Your Password is Getting Old 
             Please Update your password now 
